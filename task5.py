@@ -26,12 +26,6 @@ class Robot():
 #importing the specifics of the robot
 robot=Robot().panda
 
-#setting paramters for IK solvers
-ilimit=1000
-slimit=2000
-tolerance=1e-8
-
-
 print('Printing the forward kinematics matrix')
 
 arr=list()
